@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_banner{
+    background-image: url("../images/01 1.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    margin-bottom: 344px;
+}
+.main_banner.banner_2{
+    background-image: url("../images/01 2.jpg");
+}
+.main_banner.banner_3{
+    background-image: url("../images/01 3.jpg");
+}
+.main_banner.banner_4{
+    background-image: url("../images/01 4.jpg");
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.main_banner h1{
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    margin-bottom: 20px;
+}
