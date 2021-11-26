@@ -96,5 +96,68 @@ header .soc{
     text-decoration: none;
     margin-right: 20px;
 }
+.title{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    font-family: sans-serif;
+}
+.description{
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    font-family: sans-serif;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.subtitle{
+    margin-top: 141px;
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    font-family: sans-serif;
 
+}
+.list{
+    list-style: none;
+    max-width: 1060px;
+}
+.list li{
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    font-family: sans-serif;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+
+}
+.list span{
+    display: inline-block;
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    font-family: sans-serif;
+    margin-right: 8px;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.list p{
+    margin-top: 65px;
+    max-width: 140px;
+}
+.set{
+    font-size: 15px;
+    text-align: left;
+    font-family: sans-serif;
+    vertical-align: top;
+    color: #181818;
+    line-height: 19px;
+    max-width: 260px;
+    float: right;
+}
 
