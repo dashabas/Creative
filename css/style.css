@@ -113,17 +113,20 @@ header .soc{
     vertical-align: top;
     margin-left: 30px;
 }
+.container_2{
+    margin: auto;
+    max-width: 1162px;
+}
 .subtitle{
     margin-top: 141px;
     font-size: 55px;
     line-height: 55px;
     color: #181818;
     font-family: sans-serif;
-
 }
 .list{
     list-style: none;
-    max-width: 1060px;
+    text-align: left;
 }
 .list li{
     font-size: 18px;
@@ -131,9 +134,7 @@ header .soc{
     color: #181818;
     font-family: sans-serif;
     text-align: left;
-    vertical-align: top;
     display: flex;
-
 }
 .list span{
     display: inline-block;
@@ -143,21 +144,57 @@ header .soc{
     font-family: sans-serif;
     margin-right: 8px;
     text-align: left;
-    vertical-align: top;
     margin-top: 40px;
 }
 .list p{
     margin-top: 65px;
     max-width: 140px;
 }
+.relative{
+    position: relative;
+    margin-bottom: 219px;
+}
 .set{
     font-size: 15px;
     text-align: left;
     font-family: sans-serif;
-    vertical-align: top;
     color: #181818;
     line-height: 19px;
     max-width: 260px;
-    float: right;
+    position: relative;
+    top: 16px;
+    left: 902px;
+    display: inline-block;
 }
+.title_2{
+    font-family: sans-serif;
+    font-size: 38px;
+    color: #181818;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+.description_2{
+    margin-right: 82px;
+    padding-top: 57px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #181818;
+    line-height: 25px;
+    text-align: left;
+    max-width: 396px;
+}
+.note{
+    padding: 11px 7px 11px 13px;
+    background-color: #2B59C3;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.container_3{
+    margin: auto;
+    max-width: 1151px;
+}
+
+
+
+
 
