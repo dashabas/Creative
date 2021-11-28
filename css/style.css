@@ -135,6 +135,7 @@ header .soc{
     font-family: sans-serif;
     text-align: left;
     display: flex;
+
 }
 .list span{
     display: inline-block;
@@ -148,11 +149,7 @@ header .soc{
 }
 .list p{
     margin-top: 65px;
-    max-width: 140px;
-}
-.relative{
-    position: relative;
-    margin-bottom: 219px;
+    max-width: 260px;
 }
 .set{
     font-size: 15px;
@@ -160,11 +157,8 @@ header .soc{
     font-family: sans-serif;
     color: #181818;
     line-height: 19px;
-    max-width: 260px;
-    position: relative;
-    top: 16px;
-    left: 902px;
-    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 120px;
 }
 .title_2{
     font-family: sans-serif;
@@ -192,6 +186,10 @@ header .soc{
 .container_3{
     margin: auto;
     max-width: 1151px;
+}
+.price{
+    display: block;
+    width: 100%;
 }
 
 
