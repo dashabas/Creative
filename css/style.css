@@ -104,7 +104,7 @@ header .soc{
     color: #181818;
     font-family: sans-serif;
 }
-.description{
+.description p{
     font-size: 18px;
     line-height: 25px;
     color: #181818;
@@ -112,6 +112,9 @@ header .soc{
     text-align: left;
     vertical-align: top;
     margin-left: 30px;
+}
+.description p:last-of-type{
+    margin-top: 20px;
 }
 .container_2{
     margin: auto;
@@ -177,8 +180,11 @@ header .soc{
     text-align: left;
     max-width: 396px;
 }
-.note{
-    padding: 11px 7px 11px 13px;
+.description_2 p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.description_2 p:last-of-type{
     background-color: #2B59C3;
     color: #FFFFFF;
     border-radius: 5px;
