@@ -22,8 +22,6 @@
     font-style: normal;
     font-display: swap;
 }
-
-
 *{
     padding: 0;
     margin: 0;
@@ -71,6 +69,7 @@ header p{
     color: #FFFFFF;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 header li span{
     display: inline-block;
@@ -83,6 +82,7 @@ header li span{
     line-height: 22px;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 header ul{
     list-style: none;
@@ -107,6 +107,8 @@ header .soc{
     line-height: 55px;
     color: #181818;
     font-family: '20 Kopeek';
+    font-weight: normal;
+    font-style: normal;
     margin-bottom: 30px;
 }
 .main_banner p{
@@ -127,6 +129,7 @@ header .soc{
     margin-right: 20px;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 .title{
     margin-top: 70px;
@@ -136,6 +139,7 @@ header .soc{
     color: #181818;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 .description p{
     font-size: 18px;
@@ -146,6 +150,7 @@ header .soc{
     vertical-align: top;
     margin-left: 30px;
     font-weight: normal;
+    font-style: normal;
 }
 .description p:last-of-type{
     margin-top: 20px;
@@ -161,19 +166,14 @@ header .soc{
     color: #181818;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 .list{
     list-style: none;
     text-align: left;
 }
 .list li{
-    font-size: 18px;
-    line-height: 25px;
-    color: #181818;
-    font-family: '20 Kopeek';
-    text-align: left;
     display: flex;
-    font-weight: normal;
 }
 .list span{
     display: inline-block;
@@ -185,15 +185,25 @@ header .soc{
     text-align: left;
     margin-top: 40px;
     font-weight: normal;
+    font-style: normal;
 }
 .list p{
     margin-top: 65px;
     max-width: 260px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    font-family: '20 Kopeek';
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
 }
 .set{
     font-size: 15px;
     text-align: left;
-    font-family: sans-serif;
+    font-family: '20 Kopeek';
+    font-weight: normal;
+    font-style: normal;
     color: #181818;
     line-height: 19px;
     margin-top: 16px;
@@ -202,6 +212,7 @@ header .soc{
 .title_2{
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
     font-size: 38px;
     color: #181818;
     line-height: 42px;
@@ -239,7 +250,10 @@ header .soc{
     display: flex;
     width: 100%;
 }
-.project_1 a{
+.margin{
+    margin-top: 133px;
+}
+.project a{
     font-size: 18px;
     line-height:25px;
     color: #181818;
@@ -249,23 +263,26 @@ header .soc{
     margin-top: 45px;
     padding: 23px 47px;
     font-family: '20 Kopeek';
+    font-weight: normal;
+    font-style: normal;
 }
-.project_1{
-    margin-top: 133px;
-}
-.project_1 h3{
-    margin: 45px 183px 4px 0;
+.project h3{
+    margin: 45px 89px 4px 0;
     font-size: 55px;
     line-height:55px;
     color: #181818;
     font-family: '20 Kopeek';
+    font-weight: normal;
+    font-style: normal;
 }
-.project_1 p{
+.project p{
     font-size: 18px;
     line-height: 25px;
     color: #181818;
     margin-bottom: 100px;
     font-family: '20 Kopeek';
+    font-weight: normal;
+    font-style: normal;
 }
 .d_flex_1{
     display: flex;
@@ -291,6 +308,7 @@ header .soc{
     margin-bottom: 10px;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 .about_guideline div{
     background-color: #2B59C3;
@@ -308,6 +326,7 @@ header .soc{
     margin-bottom: 11px;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 .form p{
     font-size: 26px;
@@ -316,8 +335,10 @@ header .soc{
     margin-bottom: 27px;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 .first_name_phone{
+    padding: 23px 149px 23px 29px;
     border: 1px solid #181818;
     box-sizing: border-box;
     border-radius: 10px;
@@ -329,13 +350,10 @@ header .soc{
     width: 100%;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 #first_name{
-    padding: 23px 237px 29px 23px ;
     margin-right: 30px;
-}
-#phone{
-    padding: 23px 149px 29px 23px ;
 }
 .application{
     margin-left: 30px;
@@ -349,6 +367,7 @@ header .soc{
     color: #FFFFFF;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 #i_agree{
     margin-top: 21px;
@@ -362,6 +381,7 @@ header .soc{
     border-radius: 5px;
     font-family: '20 Kopeek';
     font-weight: normal;
+    font-style: normal;
 }
 .agree{
     text-decoration: none;
