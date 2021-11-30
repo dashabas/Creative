@@ -131,6 +131,10 @@ header .soc{
     font-weight: normal;
     font-style: normal;
 }
+.btn i{
+    color: #2B59C3;
+    font-size: 20px;
+}
 .title{
     margin-top: 70px;
     margin-bottom: 15px;
