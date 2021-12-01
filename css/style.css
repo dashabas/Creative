@@ -246,7 +246,7 @@ header .soc{
     margin: auto;
     max-width: 1151px;
 }
-.img{
+.project_banner{
     display: block;
     width: 100%;
 }
@@ -254,7 +254,7 @@ header .soc{
     display: flex;
     width: 100%;
 }
-.margin{
+.project_amp{
     margin-top: 133px;
 }
 .project a{
@@ -301,7 +301,7 @@ header .soc{
     font-family: '20 Kopeek';
     font-weight: normal;
 }
-.color{
+.guideline{
     color: #181818;
     padding: 11px 18px 11px 14px;
 }
@@ -320,10 +320,10 @@ header .soc{
     border-radius: 5px;
     padding: 11px 39px 18px 14px;
 }
-.form{
+.submit_application{
     margin-top: 77px;
 }
-.form h3{
+.submit_application h3{
     font-size: 38px;
     line-height:42px;
     color: #181818;
@@ -332,7 +332,7 @@ header .soc{
     font-weight: normal;
     font-style: normal;
 }
-.form p{
+.submit_application p{
     font-size: 26px;
     line-height:29px;
     color: #181818;
@@ -359,7 +359,7 @@ header .soc{
 #first_name{
     margin-right: 30px;
 }
-.application{
+.btn_application{
     margin-left: 30px;
     padding: 23px 47px;
     text-decoration: none;
@@ -372,6 +372,7 @@ header .soc{
     font-family: '20 Kopeek';
     font-weight: normal;
     font-style: normal;
+    border: none;
 }
 #i_agree{
     margin-top: 21px;
@@ -387,7 +388,7 @@ header .soc{
     font-weight: normal;
     font-style: normal;
 }
-.agree{
+.checkbox_link{
     text-decoration: none;
 }
 .checkbox{
