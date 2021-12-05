@@ -350,6 +350,93 @@ header .soc{
 .checkbox{
     padding-right: 11px;
 }
+.flex_container{
+    max-width: 960px;
+    margin-bottom: 60px;
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item_1{
+    flex: 2;
+    margin-right: 97px;
+}
+.item_2{
+    flex: 1;
+    margin-right: 24px;
+}
+.item_3{
+    flex: 1;
+    margin-right: 24px;
+}
+.item_4{
+    flex: 1;
+}
+.stages{
+    margin-top: 150px;
+    margin-bottom: 83px;
+    font: 55px/55px '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    color: #181818;
+}
+
+.flex_container h4{
+    font: 26px/29px '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    color: #181818;
+    margin-top: 23px;
+}
+.flex_container h5{
+    font: 18px/25px '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+.flex_container p{
+    font: 15px/19px '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    color: #181818;
+}
+.flex_container img{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .minor_banner{
     background-image: url("../images/Rectangle 32.jpg");
     background-size: cover;
@@ -426,7 +513,7 @@ footer{
     font-style: normal;
 }
 .checkbox_label{
-    display: flex;
+    display: inline-block;
     margin-top: 21px;
 }
 footer button{
@@ -440,8 +527,15 @@ footer button{
     color: #181818;
     margin-bottom: 14px;
 }
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
 .media div{
-    margin-right: 30px;
+    flex-basis: 22%;
     max-width: 255px;
     background-color: #2B59C3;
     border-radius: 10px;
@@ -456,6 +550,14 @@ footer button{
     color: #FFFFFF;
     margin-top: 25px;
     display: inline-block;
+}
+
+.free{
+    margin-top: 38px;
+    font: 18px/25px '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    color: #181818;
 }
 
 
