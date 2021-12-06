@@ -5,7 +5,12 @@
 
 }
 @media only screen and (max-width: 767px) {
-
+.main_banner{
+    background-image: url("../images/Rectangle 52.jpg");
+}
+    .list{
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width: 420px) {
 
