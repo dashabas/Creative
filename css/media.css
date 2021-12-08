@@ -2,11 +2,43 @@
 
 }
 @media only screen and (max-width: 992px) {
+    .main_banner{
+        padding-top: 301px;
+    }
+    .container{
+        max-width: 930px;
+    }
+    header{
+        padding-top: 37px;
+    }
+    header p{
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    header ul{
+        padding-top: 0;
+    }
+    header li{
+        margin-left: 28px;
+    }
+    .main_banner h1{
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+    .main_banner p{
+        font-size: 26px;
+        line-height: 29px;
+        margin-bottom: 55px;
+    }
+
 
 }
 @media only screen and (max-width: 767px) {
-.main_banner{
-    background-image: url("../images/Rectangle 52.jpg");
+    .main_banner{
+        background-image: url("../images/Rectangle52.jpg");
+
 }
     .list{
         flex-wrap: wrap;
