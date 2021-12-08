@@ -197,6 +197,10 @@ header .soc{
     margin-top: 16px;
     margin-bottom: 120px;
 }
+.d_flex_2{
+    display: flex;
+    width: 100%;
+}
 .title_2{
     font-weight: normal;
     font-style: normal;
@@ -231,6 +235,10 @@ header .soc{
     width: 100%;
 }
 .d_flex_1{
+    display: flex;
+    width: 100%;
+}
+.d_flex_project{
     display: flex;
     width: 100%;
 }
@@ -289,6 +297,10 @@ header .soc{
     color: #FFFFFF;
     border-radius: 5px;
     padding: 11px 39px 18px 14px;
+}
+.d_flex_application{
+    display: flex;
+    width: 100%;
 }
 .submit_application{
     margin-top: 77px;
@@ -540,6 +552,10 @@ footer{
 }
 .contact{
     margin-left: 103px;
+}
+.d_flex_contact{
+    display: flex;
+    width: 100%;
 }
 .headline{
     font: 38px/42px '20 Kopeek';
