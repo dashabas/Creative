@@ -76,6 +76,9 @@
         font-size: 14px;
         line-height: 18px;
     }
+    .container_3{
+        max-width: 945px;
+    }
     .title_2{
         font-size: 34px;
         line-height: 37px;
@@ -85,6 +88,7 @@
         font-size: 16px;
         line-height: 22px;
         margin-right: 30px;
+        padding-top: 48px;
     }
     .guideline_banner{
         max-width: 530px;
@@ -306,6 +310,71 @@
     .position{
         top: 307px;
     }
+    .position p{
+        margin-bottom: 78px;
+    }
+    .flex_btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .position .btn{
+        max-width: 212px;
+        margin-right: 0;
+        margin-bottom: 42px;
+        box-sizing: border-box;
+        padding-right: 46px;
+    }
+    .btn i{
+        display: none;
+    }
+    .title{
+        margin-top: 100px;
+    }
+    .brand_identity{
+        flex-wrap: wrap;
+    }
+    .description{
+        max-width: 460px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .container_2{
+        max-width: 642px;
+    }
+    .list{
+        flex-wrap: wrap;
+    }
+    .list span{
+        margin-top: 42px;
+    }
+    .list p {
+        margin-top: 42px;
+        max-width: 259px;
+    }
+    .set{
+        margin-top: 14px;
+    }
+    .container_3{
+        max-width: 700px;
+    }
+    .d_flex_2{
+        flex-wrap: wrap;
+    }
+    .desc_block{
+        order: 1;
+        width: 100%;
+    }
+    .description_2{
+        order: 2;
+        max-width: 585px;
+        padding-top: 0;
+        margin-right: 0;
+        margin-top: 25px;
+    }
+
+
+
+
 
 
 

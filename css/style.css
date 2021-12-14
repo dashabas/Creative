@@ -144,10 +144,12 @@ header .soc{
     display: flex;
     width: 100%;
 }
+.description{
+    margin-left: 30px;
+}
 .description p{
     font: 18px/25px '20 Kopeek';
     color: #181818;
-    margin-left: 30px;
     font-weight: normal;
     font-style: normal;
 }
@@ -216,12 +218,16 @@ header .soc{
 }
 .description_2{
     margin-right: 82px;
-    padding-top: 57px;
+    padding-top: 53px;
     font: 18px/25px '20 Kopeek';
     font-weight: normal;
     color: #181818;
     text-align: left;
     max-width: 396px;
+    order: 1;
+}
+.desc_block{
+    order: 2;
 }
 .description_2 p{
     padding: 7px 7px 11px 13px;
