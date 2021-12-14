@@ -22,27 +22,296 @@
     header li{
         margin-left: 28px;
     }
-    .main_banner h1{
+    .position{
+        top: 301px;
+    }
+    .position h1{
         font-size: 45px;
         line-height: 45px;
         margin-bottom: 25px;
     }
-    .main_banner p{
+    .position p{
         font-size: 26px;
         line-height: 29px;
         margin-bottom: 55px;
     }
-
-
-}
-@media only screen and (max-width: 767px) {
-    .main_banner{
-        background-image: url("../images/Rectangle52.jpg");
-
-}
-    .list{
-        flex-wrap: wrap;
+    .position .btn {
+        display: inline-block;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 30px;
     }
+    .btn i{
+        font-size: 18px;
+    }
+    .title {
+        margin-top: 80px;
+        font-size: 34px;
+        line-height: 37px;
+    }
+    .brand_identity_banner img{
+        max-width: 450px;
+    }
+
+    .description p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .subtitle {
+        margin-top: 120px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .list span{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .list p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .set {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .title_2{
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 16px;
+    }
+    .description_2{
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 30px;
+    }
+    .guideline_banner{
+        max-width: 530px;
+    }
+    .container_3{
+        max-height: 930px;
+
+    }
+    .project_amp{
+        margin-top: 120px;
+    }
+    .project a {
+        margin-top: 41px;
+    }
+    .project h3 {
+        font-size: 45px;
+        line-height: 45px;
+        margin: 45px 100px 1px 0;
+    }
+    .project p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+    .about_guideline {
+        margin-left: 15px;
+    }
+    .about_guideline p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .guideline {
+        padding: 14px 5px 13px 12px;
+    }
+    .about_guideline h3 {
+        font-size: 20px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .about_guideline div {
+        padding-left: 5px;
+        padding-bottom: 0;
+        padding-right: 14px;
+    }
+    .submit_application{
+        margin-top: 87px;
+    }
+    .submit_application h3 {
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 10px;
+    }
+    .submit_application p{
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 24px;
+    }
+    .application_order_1{
+        order: 1;
+        margin-right: 30px;
+    }
+    .application_order_2{
+        order: 2;
+    }
+    .application_order_3{
+        order: 4;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    .application_order_4{
+        order: 3;
+    }
+    .first_name_phone{
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 450px;
+    }
+    .btn_application{
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    #i_agree{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .stages {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .item_1{
+        margin-right: 80px;
+    }
+    .item_2{
+        margin-right: 44px;
+    }
+    .item_3{
+        margin-right: 74px;
+    }
+    .flex_container h4 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-top: 26px;
+    }
+    .flex_container h5{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .flex_container p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .stages_2 {
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+    .block_1{
+        font-size: 20px;
+        line-height: 22px;
+        margin-right: 29px;
+    }
+    .caption{
+        font-size: 34px;
+        line-height: 37px;
+    }
+    .caption_2{
+        font-size: 34px;
+        line-height: 37px;
+    }
+    .content{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .minor_banner{
+        padding-top: 97px;
+        padding-bottom: 60px;
+        height: auto;
+    }
+    .minor_banner h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .list_2 p{
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 141px;
+    }
+    footer {
+        padding-top: 100px;
+    }
+    .connect h3{
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 31px;
+    }
+    .contact {
+        margin-left: 63px;
+    }
+    .headline{
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 35px;
+    }
+    .first_name_phone_2{
+        max-width: 370px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .contact p{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    #i_agree_1{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .checkbox_label{
+        margin-top: 10px;
+    }
+    footer button {
+        margin-top: 30px;
+        margin-bottom: 120px;
+    }
+    .headline_2{
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 31px;
+    }
+    .media div{
+        max-width: 210px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .free{
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+
+
+
+}
+@media only screen and (max-width: 768px) {
+    .main_banner {
+        background-image: url("../images/Rectangle52.jpg");
+    }
+    .container{
+        max-width: 690px;
+    }
+    header {
+        padding-top: 28px;
+    }
+    .position{
+        top: 307px;
+    }
+
+
+
+
+
+
 }
 @media only screen and (max-width: 420px) {
 

@@ -66,7 +66,7 @@ header .container{
     position: absolute;
     width: 100%;
     z-index: 3;
-    top: 344px;
+    top: 340px;
 }
 header p{
     margin-left: 22px;
@@ -307,6 +307,7 @@ header .soc{
 .d_flex_application{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
 }
 .submit_application{
     margin-top: 77px;
@@ -367,12 +368,30 @@ header .soc{
     font-weight: normal;
     font-style: normal;
 }
+.checkbox_div{
+    margin-top: 21px;
+}
 .checkbox_link{
     text-decoration: none;
 }
 .checkbox{
     padding-right: 11px;
 }
+
+.application_order_1{
+    order: 1;
+}
+.application_order_2{
+    order: 2;
+}
+.application_order_3{
+    order: 3;
+}
+.application_order_4{
+    order: 4;
+}
+
+
 .flex_container{
     max-width: 960px;
     width: 100%;
@@ -672,6 +691,34 @@ footer button{
 
 }
 
+
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    left: 10%;
+}
+.owl-carousel .owl-nav button.owl-prev:before {
+    content: "\f053";
+    font-weight: 900;
+    color: #181818;
+    font-size: 50px;
+    font-family: "Font Awesome 5 Free";
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    right: 10%;
+}
+.owl-carousel .owl-nav button.owl-next:before {
+    content: "\f054";
+    font-weight: 900;
+    color: #181818;
+    font-size: 50px;
+    font-family: "Font Awesome 5 Free";
+}
 
 
 
