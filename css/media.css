@@ -36,7 +36,6 @@
         margin-bottom: 55px;
     }
     .position .btn {
-        display: inline-block;
         padding-top: 19px;
         padding-bottom: 19px;
         font-size: 16px;
@@ -51,10 +50,12 @@
         font-size: 34px;
         line-height: 37px;
     }
-    .brand_identity_banner img{
-        max-width: 450px;
+    .description{
+        width: 80%;
     }
-
+    .brand_identity_banner{
+        width: 80%;
+    }
     .description p{
         font-size: 16px;
         line-height: 22px;
@@ -72,7 +73,7 @@
         font-size: 16px;
         line-height: 21px;
     }
-    .set {
+    .list .set {
         font-size: 14px;
         line-height: 18px;
     }
@@ -84,11 +85,19 @@
         line-height: 37px;
         margin-bottom: 16px;
     }
+    .d_flex_2{
+        flex-wrap: wrap;
+    }
     .description_2{
         font-size: 16px;
         line-height: 22px;
         margin-right: 30px;
         padding-top: 48px;
+        order: 2;
+    }
+    .desc_block{
+        order: 1;
+
     }
     .guideline_banner{
         max-width: 530px;
@@ -100,21 +109,24 @@
     .project_amp{
         margin-top: 120px;
     }
-    .project a {
+    .d_flex_project a {
         margin-top: 41px;
     }
-    .project h3 {
+    .d_flex_project h3 {
         font-size: 45px;
         line-height: 45px;
         margin: 45px 100px 1px 0;
     }
-    .project p {
+    .d_flex_project p {
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 50px;
     }
+    .guideline_banner{
+        width: 50%;
+    }
     .about_guideline {
-        margin-left: 15px;
+        width: 47%;
     }
     .about_guideline p {
         font-size: 16px;
@@ -330,14 +342,15 @@
     .title{
         margin-top: 100px;
     }
-    .brand_identity{
-        flex-wrap: wrap;
-    }
     .description{
-        max-width: 460px;
+        width: 70%;
         margin-left: 0;
         margin-top: 30px;
     }
+    .brand_identity_banner{
+        width: 70%;
+    }
+
     .container_2{
         max-width: 642px;
     }
@@ -349,10 +362,11 @@
     }
     .list p {
         margin-top: 42px;
-        max-width: 259px;
+        max-width: 122px;
     }
-    .set{
+    .list .set{
         margin-top: 14px;
+
     }
     .container_3{
         max-width: 700px;
@@ -361,16 +375,55 @@
         flex-wrap: wrap;
     }
     .desc_block{
-        order: 1;
         width: 100%;
     }
     .description_2{
-        order: 2;
-        max-width: 585px;
+        width: 80%;
         padding-top: 0;
         margin-right: 0;
         margin-top: 25px;
     }
+    .project_amp{
+        margin-top: 100px;
+    }
+    .d_flex_project a {
+        margin-top: 25px;
+    }
+    .d_flex_project h3 {
+        margin: 30px 70px 10px 0;
+    }
+    .d_flex_guideline{
+        flex-wrap: wrap;
+    }
+    .d_flex_guideline.project_banner{
+        width: 60%;
+    }
+    .guideline_banner{
+        width: 60%;
+    }
+    .about_guideline {
+        width: 65%;
+    }
+    .guideline_banner_1{
+        display: none;
+    }
+    .guideline_banner_2{
+        display: block;
+    }
+    .about_guideline{
+        margin-top: 15px;
+    }
+    #first_name{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .item_1{
+        margin-right: 480px;
+        margin-bottom: 18px;
+    }
+
+
+
 
 
 
@@ -382,15 +435,99 @@
 
 
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 510px;
+    }
+
+    .description{
+        width: 80%;
+    }
+    .brand_identity_banner{
+        width: 100%;
+    }
+    .subtitle{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .list p {
+        font-size: 15px;
+        line-height: 21px;
+        max-width: 165px;
+    }
+
+    .list span {
+        font-size: 35px;
+        line-height: 35px;
+        margin-right: 68px;
+    }
+    .list .set{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .d_flex_project h3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .d_flex_project a{
+        padding: 12px 47px;
+    }
+    .d_flex_project{
+        justify-content: space-between;
+
+    }
+    .guideline_banner{
+        width: 100%;
+    }
+    .about_guideline {
+        width: 80%;
+    }
+    .about_guideline p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .about_guideline h3{
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .title_2{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+
+
+
 
 }
-@media only screen and (max-width: 375px) {
 
-}
 @media only screen and (max-width: 360px) {
+    .container{
+        max-width: 290px;
+    }
+    .description{
+        width: 100%;
+    }
+    .list span {
+        margin-right: 58px;
+    }
+    .d_flex_project {
+        flex-direction: column;
+    }
+    .d_flex_project p {
+        margin-bottom: 0;
+    }
+    .d_flex_project a {
+        margin-bottom: 60px;
+    }
+    .about_guideline {
+        width: 100%;
+    }
 
 }
-@media only screen and (max-width: 320px) {
 
-}
+
+

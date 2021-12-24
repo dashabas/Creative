@@ -127,6 +127,11 @@ header .soc{
     margin-right: 20px;
     font-weight: normal;
     font-style: normal;
+    transition: 0.7s;
+}
+.position .btn:hover{
+    background: #2B59C3;
+    color: #FFFFFF;
 }
 .btn i{
     color: #2B59C3;
@@ -142,10 +147,19 @@ header .soc{
 }
 .brand_identity{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
 .description{
-    margin-left: 30px;
+    width: 45%;
+}
+.brand_identity_banner{
+    width: 52%;
+}
+.brand_identity_banner img{
+    width: 100%;
+    display: block;
 }
 .description p{
     font: 18px/25px '20 Kopeek';
@@ -189,14 +203,14 @@ header .soc{
 }
 .list p{
     margin-top: 65px;
-    max-width: 260px;
+    max-width: 140px;
     font: 18px/25px '20 Kopeek';
     color: #181818;
     text-align: left;
     font-weight: normal;
     font-style: normal;
 }
-.set{
+.list .set{
     font: 15px/19px '20 Kopeek';
     text-align: left;
     font-weight: normal;
@@ -204,10 +218,12 @@ header .soc{
     color: #181818;
     margin-top: 16px;
     margin-bottom: 120px;
+    max-width: 260px;
 }
 .d_flex_2{
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 .title_2{
     font-weight: normal;
@@ -217,17 +233,17 @@ header .soc{
     margin-bottom: 15px;
 }
 .description_2{
-    margin-right: 82px;
     padding-top: 53px;
     font: 18px/25px '20 Kopeek';
     font-weight: normal;
     color: #181818;
     text-align: left;
-    max-width: 396px;
+    width: 37%;
     order: 1;
 }
 .desc_block{
     order: 2;
+    width: 60%;
 }
 .description_2 p{
     padding: 7px 7px 11px 13px;
@@ -253,11 +269,13 @@ header .soc{
 .d_flex_project{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 .project_amp{
     margin-top: 133px;
 }
-.project a{
+.d_flex_project a{
     font: 18px/25px '20 Kopeek';
     color: #181818;
     border-radius: 40px;
@@ -267,27 +285,48 @@ header .soc{
     padding: 23px 47px;
     font-weight: normal;
     font-style: normal;
+    transition: 0.7s;
+    display: inline-block;
 }
-.project h3{
+.d_flex_project a:hover{
+    background: #2B59C3;
+    color: #FFFFFF;
+    border: 1px solid #2B59C3;
+}
+.d_flex_project h3{
     margin: 45px 89px 4px 0;
     font: 55px/55px '20 Kopeek';
     color: #181818;
     font-weight: normal;
     font-style: normal;
 }
-.project p{
+.d_flex_project p{
     font: 18px/25px '20 Kopeek';
     color: #181818;
     margin-bottom: 100px;
     font-weight: normal;
     font-style: normal;
 }
-.d_flex_1{
+.d_flex_guideline{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
+.guideline_banner_1{
+    width: 100%;
+    display: block;
+}
+.guideline_banner_2{
+    width: 100%;
+    display: none;
+}
+.guideline_banner{
+    width: 57%;
+}
+
 .about_guideline{
-    margin-left: 16px;
+    width: 40%;
 }
 .about_guideline p{
     font: 18px/25px '20 Kopeek';
