@@ -317,47 +317,38 @@
 
 
 
-
-
-
 }
 @media only screen and (max-width: 768px) {
     .main_banner {
         background-image: url("../images/Rectangle52.jpg");
     }
-
     .container {
         max-width: 690px;
     }
-    .nav-but-wrap{
-        display: inline-block;
-    }
-
-    header ul{
+    header li span{
         display: none;
+    }
+    header ul{
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     header p{
         font-size: 14px;
         line-height: 18px;
     }
-
     header {
         padding-top: 28px;
     }
-
     .position {
         top: 307px;
     }
-
     .position p {
         margin-bottom: 78px;
     }
-
     .flex_btn {
         display: flex;
         flex-direction: column;
     }
-
     .position .btn {
         max-width: 212px;
         margin-right: 0;
@@ -365,144 +356,111 @@
         box-sizing: border-box;
         padding-right: 46px;
     }
-
     .btn i {
         display: none;
     }
-
     .title {
         margin-top: 100px;
     }
-
     .description {
         width: 70%;
         margin-left: 0;
         margin-top: 30px;
     }
-
     .brand_identity_banner {
         width: 70%;
     }
-
     .container_2 {
         max-width: 642px;
     }
-
     .list {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
     .list span {
         margin-top: 42px;
     }
-
     .list p {
         margin-top: 42px;
         max-width: 140px;
     }
-
     .list .set {
         margin-top: 14px;
-
     }
-
     .container_3 {
         max-width: 700px;
     }
-
     .d_flex_2 {
         flex-wrap: wrap;
     }
-
     .desc_block {
         width: 100%;
     }
-
     .description_2 {
         width: 80%;
         padding-top: 0;
         margin-right: 0;
         margin-top: 25px;
     }
-
     .project_amp {
         margin-top: 100px;
     }
-
     .d_flex_project a {
         margin-top: 25px;
     }
-
     .d_flex_project h3 {
         margin: 30px 70px 10px 0;
     }
-
     .d_flex_guideline {
         flex-wrap: wrap;
     }
-
     .d_flex_guideline.project_banner {
         width: 60%;
     }
-
     .guideline_banner {
         width: 60%;
     }
-
     .about_guideline {
         width: 65%;
     }
-
     .guideline_banner_1 {
         display: none;
     }
-
     .guideline_banner_2 {
         display: block;
     }
-
     .about_guideline {
         margin-top: 15px;
     }
-
     #first_name {
         margin-right: 0;
         margin-bottom: 20px;
     }
-
     .item_1 {
         margin-right: 480px;
         margin-bottom: 18px;
     }
-
     .flex_block {
         flex-wrap: wrap;
     }
-
     .block_1 {
         width: 100%;
         margin: 0;
         padding-top: 1px;
         padding-bottom: 1px;
     }
-
     .block_1_1 {
         display: none;
     }
-
     .block_2 {
         width: 28%;
     }
-
     .block_3 {
         width: 28%;
     }
-
     .block_4 {
         width: 28%;
     }
-
     .minor_banner {
         padding-top: 32px;
         padding-bottom: 21px;
@@ -534,30 +492,7 @@
         padding: 18px 196px 20px 21px;
     }
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -565,7 +500,6 @@
     .container{
         max-width: 510px;
     }
-
     header p{
         font-size: 12px;
         line-height: 15px;
@@ -585,8 +519,6 @@
         font-size: 15px;
         line-height: 21px;
     }
-
-
     .description{
         width: 80%;
     }
@@ -705,9 +637,6 @@
 
 
 
-
-
-
 }
 
 @media only screen and (max-width: 360px) {
@@ -723,48 +652,36 @@
     .position .btn{
         margin-bottom: 20px;
     }
-
-
     .description {
         width: 100%;
     }
-
     .list span {
         margin-right: 58px;
     }
-
     .d_flex_project {
         flex-direction: column;
     }
-
     .d_flex_project p {
         margin-bottom: 0;
     }
-
     .d_flex_project a {
         margin-bottom: 60px;
     }
-
     .about_guideline {
         width: 100%;
     }
-
     .first_name_phone {
         width: 290px;
         padding-right: 123px;
-
     }
-
     .flex_container h5 {
         font-size: 15px;
         line-height: 21px;
     }
-
     .media div {
         width: 100%;
         max-width: 290px;
     }
-
     .first_name_phone_2 {
         max-width: 290px;
     }
