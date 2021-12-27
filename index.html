@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+
 
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -16,41 +19,107 @@
 </head>
 <body>
 
-<header>
+<div id="dialog" title="Basic dialog">
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+</div>
+
+<header class="cd-header">
     <div class="container">
         <a href="#" class="logo">
             <img src="images/logo.svg" alt="logo">
         </a>
         <div class="d_flex">
-        <p>
-            Разрабатываем фирменные<br> стили с 2009 года
-        </p>
-        <ul>
-            <li>
-                <span>8 (495) 156-39-11</span>
-            </li>
-            <li>
-                <a href="#" class="soc" title="facebook" target="_blank">
-                    <img src="images/Vector1.svg" alt="facebook">
-                </a>
-            </li>
-            <li>
-                <a href="#" class="soc" title="instagram" target="_blank">
-                    <img src="images/Group8.svg" alt="instagram">
-                </a>
-            </li>
-        </ul>
+            <p>
+                Разрабатываем фирменные<br> стили с 2009 года
+            </p>
+            <ul>
+                <li>
+                    <span>8 (495) 156-39-11</span>
+                </li>
+                <li>
+                    <a href="#" class="soc" title="facebook" target="_blank">
+                        <img src="images/Vector1.svg" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="soc" title="instagram" target="_blank">
+                        <img src="images/Group8.svg" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
         </div>
     </div>
 </header>
+
+
+
+
+<div class="nav">
+    <div class="nav__content">
+        <ul class="nav__list">
+            <li class="nav__list-item"><a href="#" class="hover-target">Портфолио</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Как мы работаем</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Преимущества</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class='cursor' id="cursor"></div>
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
+
+
+
+
+
+
+
+
+
+<!--<header>-->
+<!--    <div class="container">-->
+<!--        <a href="#" class="logo">-->
+<!--            <img src="images/logo.svg" alt="logo">-->
+<!--        </a>-->
+<!--        <div class="d_flex">-->
+<!--        <p>-->
+<!--            Разрабатываем фирменные<br> стили с 2009 года-->
+<!--        </p>-->
+<!--        <ul>-->
+<!--            <li>-->
+<!--                <span>8 (495) 156-39-11</span>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#" class="soc" title="facebook" target="_blank">-->
+<!--                    <img src="images/Vector1.svg" alt="facebook">-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#" class="soc" title="instagram" target="_blank">-->
+<!--                    <img src="images/Group8.svg" alt="instagram">-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->
 <div class="position">
     <div class="container">
         <h1>Вам нужен фирменный <br> стиль или ребрендинг?</h1>
         <p>Разработаем в срок от 10-ти дней</p>
         <div class="flex_btn">
-            <a href="#" class="btn">Портфолио <i class="fas fa-suitcase"></i>
+            <a href="#" class="btn">Портфолио
             </a>
-            <a href="#" class="btn">Оставить заявку <i class="fas fa-file-alt"></i>
+            <a href="#" class="btn" id="opener">Оставить заявку
             </a>
         </div>
     </div>
@@ -83,15 +152,15 @@
             <ul class="list">
                <li>
                    <span>1</span>
-                   <p>Название<!--<br>--> компании</p>
+                   <p>Название компании</p>
                </li>
                <li>
                    <span>2</span>
-                   <p>Логотип –<!--<br>--> основной<!--<br>--> графический<!--<br>--> символ</p>
+                   <p>Логотип – основной графический символ</p>
                </li>
                <li>
                    <span>3</span>
-                   <p>Фирменные<!--<br>--> цвета всей <!--<br>-->>коммуникации<br>(онлайн и оффлайн)<br>
+                   <p>Фирменные цвета всей коммуникации<br>(онлайн и оффлайн)</p>
                </li>
                 <li>
                     <span>4</span>
@@ -100,7 +169,7 @@
                 <li>
                     <span>5</span>
                     <div>
-                        <p>Носители<!--<br>--> фирменного<!--<br>--> стиля</p>
+                        <p>Носители фирменного стиля</p>
                         <p class="set">Этот набор варьируется в зависимости от нужд и потребностей компании: визитные карточки, фирменные бланки и прочая деловая документация, упаковка, сувенирная продукция, брендинг автотранспорта.</p>
                     </div>
                 </li>
@@ -351,7 +420,7 @@
             </li>
             <li>
                 <span>5</span>
-                <p>Мы имеем опыт работы с малым, средним и крупным бизнесом, а также с международными корпорациями Наша репутация - это 9-ть<br> лет успешной работы.<br> 8-мь из 10-ти<br> клиентов после совместной разработки фирменного стиля обращаются к нам повторно: за<br> созданием сайта, контента для социальных сетей или по любой другой<br> задаче.</p>
+                <p class="text_banner_5">Мы имеем опыт работы с малым, средним и крупным бизнесом, а также с международными корпорациями Наша репутация - это 9-ть лет успешной работы. 8-мь из 10-ти клиентов после совместной разработки фирменного стиля обращаются к нам повторно: за созданием сайта, контента для социальных сетей или по любой другой задаче.</p>
             </li>
         </ul>
     </div>
@@ -418,7 +487,10 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
+
+
 </body>
 </html>
