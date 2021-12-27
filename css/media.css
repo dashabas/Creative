@@ -1,5 +1,15 @@
 @media only screen and (max-width: 1024px) {
 
+    .description_2{
+        font-size: 16px;
+        line-height: 22px;
+        width: 47%;
+    }
+    .desc_block{
+        width: 51%;
+
+    }
+
 }
 @media only screen and (max-width: 992px) {
     .main_banner{
@@ -94,9 +104,11 @@
         margin-right: 30px;
         padding-top: 48px;
         order: 2;
+        width: 47%;
     }
     .desc_block{
         order: 1;
+        width: 51%;
 
     }
     .guideline_banner{
@@ -418,9 +430,33 @@
         margin-bottom: 20px;
     }
     .item_1{
-        margin-right: 480px;
-        margin-bottom: 18px;
+       margin-right: 480px;
+       margin-bottom: 18px;
     }
+    .flex_block{
+        flex-wrap: wrap;
+    }
+    .block_1{
+        width: 100%;
+        margin: 0;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .block_1_1 {
+        display: none;
+    }
+    .block_2{
+       width: 28%;
+    }
+    .block_3{
+        width: 28%;
+    }
+    .block_4{
+        width: 28%;
+    }
+
+
+
 
 
 
@@ -471,9 +507,16 @@
     .d_flex_project h3{
         font-size: 35px;
         line-height: 35px;
+        margin-top: 15px;
     }
     .d_flex_project a{
         padding: 12px 47px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .d_flex_project p{
+        margin-bottom: 0;
+
     }
     .d_flex_project{
         justify-content: space-between;
@@ -497,6 +540,37 @@
         font-size: 32px;
         line-height: 35px;
     }
+    .first_name_phone{
+        max-width: 380px;
+        padding: 21px 215px 18px 21px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .submit_application h3{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .btn_application{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .flex_container p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .item_2, .item_3, .item_4{
+        max-width: 151px;
+    }
+    .flex_container h5{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .flex_block{
+        display: none;
+    }
+
+
 
 
 
@@ -526,6 +600,18 @@
     .about_guideline {
         width: 100%;
     }
+    .first_name_phone{
+        width: 290px;
+        padding-right: 123px;
+
+    }
+    .flex_container h5{
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
 
 }
 
