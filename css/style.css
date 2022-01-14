@@ -31,6 +31,7 @@
     background-size: cover;
     background-position: center top;
     height: 100vh;
+    padding-top: 320px;
 }
 .main_banner.banner_2{
     background-image: url("../images/012.jpg");
@@ -434,7 +435,6 @@ header .soc{
     order: 4;
 }
 
-
 .flex_container{
     max-width: 960px;
     width: 100%;
@@ -587,8 +587,6 @@ header .soc{
 .flex_block:first-of-type .block_4{
     padding-bottom: 0;
 }
-
-
 .minor_banner{
     background-image: url("../images/Rectangle32.jpg");
     background-size: cover;
@@ -777,10 +775,6 @@ footer button{
     font-family: "20 Kopeek";
 
 }
-.ui-widget.ui-widget-content {
-}
-
-
 .ui-widget-header{
     background: none;
     border: none;
@@ -789,10 +783,9 @@ footer button{
 .ui-widget.ui-widget-content{
     border: none;
 }
-div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable{
+div.ui-dialog.ui-corner-all.ui-widget{
     width: 648px!important;
 }
-
 .first_name_phone_3{
     padding: 23px 339px 23px 29px;
     border: 1px solid #181818;
@@ -806,6 +799,65 @@ div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui
     width: 100%;
     margin-bottom: 10px;
 }
+.checkbox_label_3{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+#ui-id-1{
+    font-size: 38px;
+    line-height: 42px;
+}
+.ui-dialog .ui-dialog-content{
+    padding-right: 54px;
+    padding-bottom: 59px;
+    padding-left: 54px;
+}
+.ui-dialog .ui-dialog-titlebar{
+    padding: 47px 54px 22px;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    right: -43px;
+    top: -35px;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    padding: 0;
+}
+.ui-button{
+    background: transparent;
+    border: none;
+    position: relative;
+    color: transparent;
+}
+.ui-button:hover{
+    background: transparent;
+    border: none;
+}
+.ui-button .ui-icon{
+    background-image: none;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    text-indent: 0;
+}
+.ui-button .ui-icon:before{
+    content: "\f00d";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
