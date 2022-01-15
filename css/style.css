@@ -170,7 +170,7 @@ header .soc{
     margin-top: 20px;
 }
 .container_2{
-    margin: auto;
+    margin: 0 auto;
     max-width: 1162px;
 }
 .subtitle{
@@ -254,7 +254,7 @@ header .soc{
     border-radius: 5px;
 }
 .container_3{
-    margin: auto;
+    margin: 0 auto;
     max-width: 1151px;
 }
 .project_banner{
@@ -838,7 +838,7 @@ div.ui-dialog.ui-corner-all.ui-widget{
     background-image: none;
     position: absolute;
     top: 65%;
-    left: 60%;
+    left: 30%;
     text-indent: 0;
 }
 .ui-button .ui-icon:before{
@@ -847,6 +847,9 @@ div.ui-dialog.ui-corner-all.ui-widget{
     font-family: "Font Awesome 5 Free";
     font-size: 18px;
     color: #FFFFFF;
+}
+.ui-button-icon-space{
+    background: none;
 }
 
 

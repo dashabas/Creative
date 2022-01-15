@@ -1,4 +1,16 @@
 @media only screen and (max-width: 1024px) {
+    .container{
+        max-width: 1024px;
+        padding: 0 27px;
+    }
+    .container_2{
+        max-width: 1024px;
+        padding: 0 26px;
+    }
+    .container_3{
+        max-width: 1024px;
+        padding: 0 21px;
+    }
 
     .description_2{
         font-size: 16px;
@@ -14,15 +26,6 @@
 @media only screen and (max-width: 992px) {
     .main_banner{
         padding-top: 301px;
-    }
-    .container{
-        max-width: 930px;
-    }
-    .container_2{
-        max-width: 932px;
-    }
-    .container_3{
-        max-width: 945px;
     }
     header{
         padding-top: 37px;
@@ -354,15 +357,6 @@
     .main_banner {
         background-image: url("../images/Rectangle52.jpg");
     }
-    .container {
-        max-width: 690px;
-    }
-    .container_2{
-        max-width: 690px;
-    }
-    .container_3{
-        max-width: 705px;
-    }
     header li span{
         display: none;
     }
@@ -538,7 +532,7 @@
     }
     .ui-button .ui-icon{
         top: 50%;
-        left: 50%;
+        left: 65%;
     }
 
 }
@@ -546,15 +540,6 @@
 
 
 @media only screen and (max-width: 576px) {
-    .container{
-        max-width: 510px;
-    }
-    .container_2{
-        max-width: 518px;
-    }
-    .container_3{
-        max-width: 533px;
-    }
     header p{
         font-size: 12px;
         line-height: 15px;
@@ -640,7 +625,7 @@
     }
     .first_name_phone{
         width: 380px;
-        padding: 21px 215px 18px 21px;
+        padding: 21px 200px 18px 21px;
         font-size: 15px;
         line-height: 21px;
     }
@@ -720,15 +705,6 @@
 }
 
 @media only screen and (max-width: 360px) {
-    .container {
-        max-width: 290px;
-    }
-    .container_2{
-        max-width: 290px;
-    }
-    .container_3{
-        max-width: 320px;
-    }
     header p{
         line-height: 13px;
     }
@@ -757,8 +733,8 @@
         width: 100%;
     }
     .first_name_phone {
-        width: 290px;
-        padding-right: 123px;
+        max-width: 290px;
+        padding: 21px 123px 18px 21px;
     }
     .flex_container h5 {
         font-size: 15px;
@@ -770,14 +746,11 @@
     }
     .first_name_phone_2 {
         max-width: 290px;
+        padding: 21px 123px 18px 21px;
     }
     div.ui-dialog.ui-corner-all.ui-widget{
         width: 321px!important;
     }
-    .first_name_phone_2{
-        padding: 21px 123px 18px 21px;
-    }
-
 }
 
 
