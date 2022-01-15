@@ -400,6 +400,7 @@ header .soc{
     font-weight: normal;
     font-style: normal;
     border: none;
+    cursor: pointer;
 }
 #i_agree{
     font: 18px/25px '20 Kopeek';
@@ -823,6 +824,7 @@ div.ui-dialog.ui-corner-all.ui-widget{
     width: 42px;
     position: absolute;
     padding: 0;
+    background-image: none;
 }
 .ui-button{
     background: transparent;
@@ -831,8 +833,9 @@ div.ui-dialog.ui-corner-all.ui-widget{
     color: transparent;
 }
 .ui-button:hover{
-    background: transparent;
+    background-color: transparent;
     border: none;
+    background-image: none;
 }
 .ui-button .ui-icon{
     background-image: none;
@@ -848,8 +851,8 @@ div.ui-dialog.ui-corner-all.ui-widget{
     font-size: 18px;
     color: #FFFFFF;
 }
-.ui-button-icon-space{
-    background: none;
+.ui-icon-closethick{
+    background-position: -200px -20px;
 }
 
 
