@@ -87,6 +87,10 @@ header li span{
     font: 16px/22px '20 Kopeek';
     font-weight: normal;
     font-style: normal;
+    transition: 0.7s;
+}
+header li span:hover{
+    border: 1px solid #2B59C3;
 }
 header ul{
     list-style: none;
@@ -105,6 +109,10 @@ header .soc{
     text-align: center;
     display: inline-block;
     line-height: 38px;
+    transition: 0.7s;
+}
+header .soc:hover{
+    border: 1px solid #2B59C3;
 }
 .position h1{
     font: 55px/55px '20 Kopeek';
@@ -401,6 +409,10 @@ header .soc{
     font-style: normal;
     border: none;
     cursor: pointer;
+    transition: 0.7s;
+}
+.btn_application:hover{
+    background-color: #181818;
 }
 #i_agree{
     font: 18px/25px '20 Kopeek';
